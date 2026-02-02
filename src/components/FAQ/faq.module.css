@@ -1,0 +1,43 @@
+.faq {
+  border: 1px solid #e5e7eb;
+  padding: 16px 18px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.faq div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faq h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.faq button {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.faq p {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #4b5563;
+}

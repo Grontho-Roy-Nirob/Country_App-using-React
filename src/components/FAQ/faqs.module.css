@@ -1,0 +1,25 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f6f8;
+  padding: 40px 20px;
+}
+
+.faqs {
+  width: 100%;
+  max-width: 700px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.faqs h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #222;
+  letter-spacing: 1px;
+}

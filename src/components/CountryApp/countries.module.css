@@ -1,0 +1,9 @@
+.countries {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background-color: #f0f4f8;
+  margin-top: 20px;
+}
+

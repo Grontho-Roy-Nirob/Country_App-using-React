@@ -1,0 +1,17 @@
+.todos {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+
+  background-color: #1e293b;  
+  border-radius: 12px;
+  border: 2px solid #38bdf8;  
+
+  color: #ffffff; 
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  height: 350px;
+  overflow-y: auto;
+}
