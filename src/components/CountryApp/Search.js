@@ -1,17 +1,16 @@
 import React, { useState, useEffect } from "react";
 import style from "./search.module.css";
 
-const Search = (props) => {
+const Search = ({ onSearch }) => {
   const [searchText, setSearchText] = useState("");
 
   const handleChange = (e) => {
     setSearchText(e.target.value);
-    // alert(searchText);
   };
 
-  useEffect(() => { 
-    props.onSearch(searchText);
-  }, [searchText]);
+  useEffect(() => {
+    onSearch(searchText);
+  }, [searchText, onSearch]);
 
   return (
     <div style={{ textAlign: "center" }}>
@@ -20,4 +19,4 @@ const Search = (props) => {
   );
 };
 
-export default Search
+export default Search;
